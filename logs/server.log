@@ -1,0 +1,21 @@
+INFO:     Will watch for changes in these directories: ['/home/workspace']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [152] using StatReload
+INFO:     Started server process [154]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     172.20.0.1:51782 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:51804 - "OPTIONS /booking/quote HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51822 - "OPTIONS /booking/quote HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51804 - "POST /booking/quote HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51822 - "POST /booking/quote HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51814 - "GET /menu HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51798 - "GET /rooms HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51814 - "GET /menu HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51822 - "GET /rooms HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51830 - "GET /rooms HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51846 - "GET /menu HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51830 - "POST /booking/quote HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51846 - "POST /booking/quote HTTP/1.1" 200 OK
+INFO:     172.20.0.1:41738 - "GET /menu HTTP/1.1" 200 OK
+INFO:     172.20.0.1:41726 - "GET /rooms HTTP/1.1" 200 OK
